@@ -44,7 +44,7 @@ module "mongodb" {
     custom_databases_usernames       = "['admin', 'admin']"
     custom_databases_passwords       = "['pass1', 'pass2']"
     replica_count                    = 2
-    storage_class_name               = "gp2"
+    storage_class_name               = "gp3"
     store_password_to_secret_manager = local.store_password_to_secret_manager
   }
   mongodb_custom_credentials_enabled = local.mongodb_custom_credentials_enabled
